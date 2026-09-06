@@ -1,0 +1,63 @@
+{
+ "user_task_instances": [
+  {
+   "id": "2743",
+   "name": "Approve order",
+   "display_name": "Approve order ORD-42",
+   "model": "Order handling",
+   "process_id": "1355",
+   "process_name": "Order ORD-42",
+   "state": "ready",
+   "creation_time": "2025-06-30T08:16:00Z",
+   "due_date": "2025-07-01T08:16:00Z",
+   "at_risk_time": "2025-06-30T20:16:00Z",
+   "owner": null,
+   "priority": "Normal",
+   "assignments": {
+    "potential_owners": {
+     "team": {
+      "model_id": "24.abc",
+      "id": "1001",
+      "name": "Approvers",
+      "members": [
+       "mark",
+       "jane"
+      ]
+     },
+     "manager_team": {
+      "id": "1002",
+      "name": "Managers",
+      "members": [
+       "boss"
+      ]
+     }
+    }
+   },
+   "input": [
+    {
+     "name": "order",
+     "data": "{\"number\":\"ORD-42\"}"
+    }
+   ],
+   "output": [
+    {
+     "name": "decision",
+     "data": "null"
+    }
+   ],
+   "internal": [],
+   "actions": [
+    "claim",
+    "view"
+   ],
+   "container": "ORD",
+   "container_name": "Orders",
+   "version": "1.0",
+   "version_name": "1.0",
+   "branch_name": "Main",
+   "version_id": "2064.def"
+  }
+ ],
+ "previous": null,
+ "next": null
+}

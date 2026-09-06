@@ -1,0 +1,13 @@
+{
+ "error_number": "CWTBG0019E",
+ "error_message": "Unexpected exception during execution.",
+ "error_message_parameters": [
+  "a",
+  "b"
+ ],
+ "error_cause": {
+  "error_number": "CWTBG0001E",
+  "error_message": "root cause",
+  "error_message_parameters": []
+ }
+}

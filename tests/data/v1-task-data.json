@@ -1,0 +1,58 @@
+{
+ "status": "200",
+ "data": {
+  "activationTime": "2026-09-06T14:47:18Z",
+  "atRiskTime": "2026-09-06T15:41:18Z",
+  "clientTypes": [
+   "IBM_WLE_Coach"
+  ],
+  "completionTime": null,
+  "containmentContextID": "1355",
+  "description": "",
+  "displayName": "Step: Test Task",
+  "isAtRisk": false,
+  "kind": "KIND_PARTICIPATING",
+  "lastModificationTime": "2026-09-06T14:47:18Z",
+  "originator": "deadmin",
+  "priority": 30,
+  "startTime": "2026-09-06T14:47:18Z",
+  "state": "STATE_READY",
+  "piid": "1355",
+  "processInstanceName": "Test Task Process: baw-json validation",
+  "priorityName": "Normal",
+  "data": {
+   "variables": {}
+  },
+  "processData": {
+   "businessData": []
+  },
+  "externalActivitySnapshotID": null,
+  "serviceID": "1.a79259f7-fb77-5479-b2c7-62bab69e70d9",
+  "serviceSnapshotID": "2064.032df129-da33-403e-9f25-61084dc0eb9b",
+  "serviceType": "COACHFLOW",
+  "flowObjectID": "a26e538c-5559-5c5d-9fd4-78f1a5a56bf1",
+  "nextTaskId": null,
+  "collaboration": {
+   "status": false,
+   "currentUsers": []
+  },
+  "actions": null,
+  "teamDisplayName": "All Users",
+  "teamName": "All Users_T_da7e4d23-78cb-4483-98ed-b9c238308a03.c68b56ae-034a-53b5-b30d-50b67b8f15bb",
+  "teamID": 2221,
+  "managerTeamDisplayName": "Managers of All Users",
+  "managerTeamName": "Managers of All Users_T_5dfdeb91-03c9-4af3-ab98-31a4db406563.c68b56ae-034a-53b5-b30d-50b67b8f15bb",
+  "managerTeamID": 2220,
+  "tkiid": "2743",
+  "name": "Test Task",
+  "status": "Received",
+  "owner": null,
+  "assignedTo": "All Users_T_da7e4d23-78cb-4483-98ed-b9c238308a03.c68b56ae-034a-53b5-b30d-50b67b8f15bb",
+  "assignedToDisplayName": "All Users",
+  "assignedToID": 2221,
+  "assignedToType": "group",
+  "dueTime": "2026-09-06T15:47:18Z",
+  "closeByUser": null,
+  "closeByUserFullName": null
+ }
+}

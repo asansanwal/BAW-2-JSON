@@ -1,0 +1,44 @@
+{
+ "status": "200",
+ "data": {
+  "data": [
+   {
+    "taskAssignedTo": {
+     "type": "Group",
+     "who": "All Users_T_da7e4d23-78cb-4483-98ed-b9c238308a03.c68b56ae-034a-53b5-b30d-50b67b8f15bb"
+    },
+    "assignedToUser": null,
+    "bpdName": "Test Task Process",
+    "instanceCreateDate": "2026-09-06T14:47:18Z",
+    "instanceDueDate": "2026-09-06T22:47:18Z",
+    "instanceId": 1355,
+    "instanceModifyDate": "2026-09-06T14:47:18Z",
+    "instanceName": "Test Task Process: baw-json validation",
+    "instanceStatus": "Active",
+    "taskAttachedExtActivityRef": null,
+    "taskAttachedInfoPathFormRef": null,
+    "taskDueDate": "2026-09-06T15:47:18Z",
+    "taskId": 2743,
+    "taskPriority": "Normal",
+    "taskStatus": "Received",
+    "taskSubject": "Step: Test Task"
+   }
+  ],
+  "firstColumnSort": "taskDueDate",
+  "secondColumnSort": "taskPriority",
+  "organization": "byTask",
+  "autoColumns": [
+   "assignedToUser",
+   "instanceId",
+   "taskAssignedTo",
+   "taskAttachedExtActivityRef",
+   "taskAttachedInfoPathFormRef",
+   "taskId",
+   "taskStatus"
+  ],
+  "offset": 0,
+  "size": 1,
+  "requestedSize": 5,
+  "totalCount": 1
+ }
+}

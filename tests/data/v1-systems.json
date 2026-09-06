@@ -1,0 +1,30 @@
+{
+ "status": "200",
+ "data": {
+  "systems": [
+   {
+    "systemID": "1d9b9adb-2976-49da-ab97-b4c193f02eac",
+    "systemType": "SYSTEM_TYPE_WLE",
+    "version": "8.6.2.20001",
+    "buildLevel": "BPM8600-20200613-172549",
+    "groupWorkItemsEnabled": false,
+    "substitutionEnabled": false,
+    "substitutionManagementRestrictedToAdministrators": false,
+    "taskHistoryEnabled": false,
+    "workBasketsEnabled": false,
+    "businessCategoriesEnabled": false,
+    "taskSearchEnabled": true,
+    "notificationWebMessagingEnabled": true,
+    "taskListWebMessagingEnabled": true,
+    "apiVersion": "1.0",
+    "supports": null,
+    "resources": [
+     "tasks",
+     "taskTemplates",
+     "processes"
+    ],
+    "hostname": "process-center.example.com"
+   }
+  ]
+ }
+}

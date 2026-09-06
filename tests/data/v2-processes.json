@@ -1,0 +1,50 @@
+{
+ "processes": [
+  {
+   "id": "1355",
+   "model": "Order handling",
+   "container": "ORD",
+   "container_name": "Orders",
+   "version": "1.0",
+   "version_name": "1.0",
+   "state": "running",
+   "creation_time": "2025-06-30T08:15:00.000Z",
+   "due_date": "2025-07-02T16:00:00.000Z",
+   "modification_time": "2025-06-30T08:16:12.345Z",
+   "name": "Order ORD-42",
+   "branch_name": "Main",
+   "input": [
+    {
+     "name": "order",
+     "data": "{\"number\":\"ORD-42\",\"total\":12500.5}"
+    }
+   ],
+   "output": [],
+   "internal": [
+    {
+     "name": "approver",
+     "data": "\"mark\""
+    }
+   ],
+   "actions": [
+    "terminate",
+    "suspend",
+    "set_data"
+   ]
+  },
+  {
+   "id": "1356",
+   "model": "Order handling",
+   "container": "ORD",
+   "container_name": "Orders",
+   "state": "finished",
+   "creation_time": "2025-06-29T08:15:00Z",
+   "due_date": "2025-07-01T16:00:00Z",
+   "actions": [
+    "view"
+   ]
+  }
+ ],
+ "previous": null,
+ "next": "/bpm/processes?offset=2&size=2"
+}

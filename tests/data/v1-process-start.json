@@ -1,0 +1,215 @@
+{
+ "status": "200",
+ "data": {
+  "creationTime": "2026-09-06T14:47:18Z",
+  "description": "",
+  "richDescription": "",
+  "executionState": "Active",
+  "state": "STATE_RUNNING",
+  "lastModificationTime": "2026-09-06T14:47:18Z",
+  "name": "Test Task Process: baw-json validation",
+  "piid": "1355",
+  "caseFolderID": "2126.ab6011d4-dfe5-4183-8a7a-2ff18515675f",
+  "caseFolderServerName": "IBM_BPM_ManagedStore",
+  "processTemplateID": "25.5d78b75d-38b7-5a78-ae6f-15d19b8b0f9f",
+  "processTemplateName": "Test Task Process",
+  "processAppName": "BAW JSON Test",
+  "processAppAcronym": "BAWJSON",
+  "processAppID": "2066.85e30b32-1ee1-5c4a-9d44-9447ea5725f2",
+  "result": null,
+  "snapshotName": null,
+  "snapshotID": "2064.032df129-da33-403e-9f25-61084dc0eb9b",
+  "branchID": "2063.15ec8886-f268-5b72-a4b4-aad3eb2b6dd2",
+  "branchName": "Main",
+  "snapshotTip": true,
+  "startingDocumentServerName": null,
+  "parentCaseId": null,
+  "parentActivityId": null,
+  "workflowApplication": null,
+  "dueDate": "2026-09-06T22:47:18Z",
+  "comments": [],
+  "tasks": [
+   {
+    "activationTime": "2026-09-06T14:47:18Z",
+    "atRiskTime": "2026-09-06T15:41:18Z",
+    "clientTypes": [
+     "IBM_WLE_Coach"
+    ],
+    "completionTime": null,
+    "containmentContextID": "1355",
+    "description": "",
+    "displayName": "Step: Test Task",
+    "isAtRisk": false,
+    "kind": "KIND_PARTICIPATING",
+    "lastModificationTime": "2026-09-06T14:47:18Z",
+    "originator": "deadmin",
+    "priority": 30,
+    "startTime": "2026-09-06T14:47:18Z",
+    "state": "STATE_READY",
+    "piid": "1355",
+    "processInstanceName": "Test Task Process: baw-json validation",
+    "priorityName": "Normal",
+    "data": {
+     "variables": {}
+    },
+    "externalActivitySnapshotID": null,
+    "serviceID": "1.a79259f7-fb77-5479-b2c7-62bab69e70d9",
+    "serviceSnapshotID": "2064.032df129-da33-403e-9f25-61084dc0eb9b",
+    "serviceType": "COACHFLOW",
+    "flowObjectID": "a26e538c-5559-5c5d-9fd4-78f1a5a56bf1",
+    "nextTaskId": null,
+    "collaboration": {
+     "status": false,
+     "currentUsers": []
+    },
+    "actions": null,
+    "teamDisplayName": "All Users",
+    "teamName": "All Users_T_da7e4d23-78cb-4483-98ed-b9c238308a03.c68b56ae-034a-53b5-b30d-50b67b8f15bb",
+    "teamID": 2221,
+    "managerTeamDisplayName": "Managers of All Users",
+    "managerTeamName": "Managers of All Users_T_5dfdeb91-03c9-4af3-ab98-31a4db406563.c68b56ae-034a-53b5-b30d-50b67b8f15bb",
+    "managerTeamID": 2220,
+    "tkiid": "2743",
+    "name": "Test Task",
+    "status": "Received",
+    "owner": null,
+    "assignedTo": "All Users_T_da7e4d23-78cb-4483-98ed-b9c238308a03.c68b56ae-034a-53b5-b30d-50b67b8f15bb",
+    "assignedToDisplayName": "All Users",
+    "assignedToID": 2221,
+    "assignedToType": "group",
+    "dueTime": "2026-09-06T15:47:18Z",
+    "closeByUser": null,
+    "closeByUserFullName": null
+   }
+  ],
+  "documents": null,
+  "actionDetails": null,
+  "data": "\"{\\\"payload\\\":\\\"started with BAWJSON.toJSON output\\\",\\\"label\\\":\\\"baw-json validation\\\"}\"",
+  "variables": {
+   "payload": "started with BAWJSON.toJSON output",
+   "label": "baw-json validation"
+  },
+  "relationship": null,
+  "businessData": [],
+  "executionTree": {
+   "executionStatus": "1",
+   "root": {
+    "name": "Test Task Process",
+    "nodeId": "1",
+    "createdTaskIDs": null,
+    "variables": {
+     "payload": "started with BAWJSON.toJSON output",
+     "label": "baw-json validation"
+    },
+    "children": [
+     {
+      "name": "Test Task",
+      "nodeId": "5",
+      "flowObjectId": "a26e538c-5559-5c5d-9fd4-78f1a5a56bf1",
+      "taskType": "1",
+      "tokenId": "4",
+      "createdTaskIDs": [
+       "2743"
+      ],
+      "variables": {
+       "payload": "started with BAWJSON.toJSON output",
+       "label": "baw-json validation"
+      },
+      "children": null
+     }
+    ]
+   }
+  },
+  "diagram": {
+   "processAppID": "2066.85e30b32-1ee1-5c4a-9d44-9447ea5725f2",
+   "milestone": null,
+   "step": [
+    {
+     "name": "Test Task",
+     "type": "activity",
+     "activityType": "task",
+     "externalID": "1.a79259f7-fb77-5479-b2c7-62bab69e70d9",
+     "diagram": null,
+     "lane": "Team",
+     "x": 200,
+     "y": 57,
+     "attachedTimer": null,
+     "preTrackingPoint": null,
+     "postTrackingPoint": null,
+     "attachedEventHandler": null,
+     "lines": [
+      {
+       "to": "ff1bfe04-17cf-5d77-b0ab-582b27222fac",
+       "points": "",
+       "tokenID": null,
+       "name": "To End"
+      }
+     ],
+     "tokenID": [
+      "4"
+     ],
+     "taskID": "2743",
+     "ID": "a26e538c-5559-5c5d-9fd4-78f1a5a56bf1"
+    },
+    {
+     "name": "End",
+     "type": "event",
+     "activityType": null,
+     "externalID": null,
+     "diagram": null,
+     "lane": "Team",
+     "x": 400,
+     "y": 80,
+     "attachedTimer": null,
+     "preTrackingPoint": null,
+     "postTrackingPoint": null,
+     "attachedEventHandler": null,
+     "lines": null,
+     "tokenID": null,
+     "taskID": null,
+     "ID": "ff1bfe04-17cf-5d77-b0ab-582b27222fac"
+    },
+    {
+     "name": "Start",
+     "type": "event",
+     "activityType": null,
+     "externalID": null,
+     "diagram": null,
+     "lane": "System",
+     "x": 40,
+     "y": 270,
+     "attachedTimer": null,
+     "preTrackingPoint": null,
+     "postTrackingPoint": null,
+     "attachedEventHandler": null,
+     "lines": [
+      {
+       "to": "a26e538c-5559-5c5d-9fd4-78f1a5a56bf1",
+       "points": "",
+       "tokenID": null,
+       "name": "To Test Task"
+      }
+     ],
+     "tokenID": null,
+     "taskID": null,
+     "ID": "718fd312-9e8e-5a99-a5ba-eca67a5b8038"
+    }
+   ],
+   "lanes": [
+    {
+     "name": "Team",
+     "height": 200,
+     "system": false
+    },
+    {
+     "name": "System",
+     "height": 200,
+     "system": true
+    }
+   ],
+   "orphaned": null
+  },
+  "actions": null,
+  "starterId": "2048.1"
+ }
+}

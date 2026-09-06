@@ -1,0 +1,129 @@
+{
+ "status": "200",
+ "data": {
+  "data": [
+   {
+    "assignedToRole": null,
+    "taskAssignedTo": {
+     "type": "User",
+     "who": "celladmin"
+    },
+    "bpdName": "Standard HR Open New Position",
+    "instanceCreateDate": "2026-06-06T23:29:18Z",
+    "instanceDueDate": "2026-06-07T03:29:18Z",
+    "instanceId": 4,
+    "instanceModifyDate": "2026-09-06T02:39:54Z",
+    "instanceName": "Standard Employee Requisition for  (Standard HR Open New Position)",
+    "instanceStatus": "Active",
+    "taskAttachedExtActivityRef": null,
+    "taskAttachedInfoPathFormRef": null,
+    "taskDueDate": "2026-06-07T00:29:18Z",
+    "taskId": 4,
+    "taskPriority": "Normal",
+    "taskStatus": "Closed",
+    "taskSubject": "Task: Create position request"
+   },
+   {
+    "assignedToRole": null,
+    "taskAssignedTo": {
+     "type": "User",
+     "who": "deadmin"
+    },
+    "bpdName": "Benchmark Coordinator",
+    "instanceCreateDate": "2026-08-31T12:42:59Z",
+    "instanceDueDate": "2026-08-31T20:42:59Z",
+    "instanceId": 303,
+    "instanceModifyDate": "2026-08-31T12:47:59Z",
+    "instanceName": "Benchmark Coordinator:303",
+    "instanceStatus": "Completed",
+    "taskAttachedExtActivityRef": null,
+    "taskAttachedInfoPathFormRef": null,
+    "taskDueDate": "2026-08-31T13:43:03Z",
+    "taskId": 406,
+    "taskPriority": "Normal",
+    "taskStatus": "Closed",
+    "taskSubject": "Step: User Task"
+   },
+   {
+    "assignedToRole": null,
+    "taskAssignedTo": {
+     "type": "User",
+     "who": "deadmin"
+    },
+    "bpdName": "TDSH Monitor and Gather Statistics Process",
+    "instanceCreateDate": "2026-09-03T12:30:49Z",
+    "instanceDueDate": "2026-09-03T20:30:49Z",
+    "instanceId": 454,
+    "instanceModifyDate": "2026-09-06T14:42:52Z",
+    "instanceName": "TDSH Monitor and Gather Statistics Process:454",
+    "instanceStatus": "Active",
+    "taskAttachedExtActivityRef": null,
+    "taskAttachedInfoPathFormRef": null,
+    "taskDueDate": "2026-09-03T13:30:49Z",
+    "taskId": 454,
+    "taskPriority": "Normal",
+    "taskStatus": "Closed",
+    "taskSubject": "Step: Load Configuration"
+   },
+   {
+    "taskAssignedTo": {
+     "type": "Group",
+     "who": "All Users_T_da7e4d23-78cb-4483-98ed-b9c238308a03.fc767d02-0851-4ed9-a0a4-331ac0b6d505"
+    },
+    "assignedToUser": null,
+    "bpdName": "InstanceCreationTestBPD",
+    "instanceCreateDate": "2026-09-04T02:12:50Z",
+    "instanceDueDate": "2026-09-04T10:12:50Z",
+    "instanceId": 477,
+    "instanceModifyDate": "2026-09-04T02:13:50Z",
+    "instanceName": "InstanceCreationTestBPD:477",
+    "instanceStatus": "Completed",
+    "taskAttachedExtActivityRef": null,
+    "taskAttachedInfoPathFormRef": null,
+    "taskDueDate": "2026-09-04T03:12:50Z",
+    "taskId": 639,
+    "taskPriority": "Normal",
+    "taskStatus": "Closed",
+    "taskSubject": "Step: Inline User Task"
+   },
+   {
+    "taskAssignedTo": {
+     "type": "Group",
+     "who": "All Users_T_da7e4d23-78cb-4483-98ed-b9c238308a03.fc767d02-0851-4ed9-a0a4-331ac0b6d505"
+    },
+    "assignedToUser": null,
+    "bpdName": "InstanceCreationTestBPD",
+    "instanceCreateDate": "2026-09-04T02:13:56Z",
+    "instanceDueDate": "2026-09-04T10:13:56Z",
+    "instanceId": 478,
+    "instanceModifyDate": "2026-09-04T02:14:56Z",
+    "instanceName": "InstanceCreationTestBPD:478",
+    "instanceStatus": "Completed",
+    "taskAttachedExtActivityRef": null,
+    "taskAttachedInfoPathFormRef": null,
+    "taskDueDate": "2026-09-04T03:13:56Z",
+    "taskId": 640,
+    "taskPriority": "Normal",
+    "taskStatus": "Closed",
+    "taskSubject": "Step: Inline User Task"
+   }
+  ],
+  "firstColumnSort": "taskDueDate",
+  "secondColumnSort": "taskPriority",
+  "organization": "byInstance",
+  "autoColumns": [
+   "assignedToRole",
+   "assignedToUser",
+   "instanceId",
+   "taskAssignedTo",
+   "taskAttachedExtActivityRef",
+   "taskAttachedInfoPathFormRef",
+   "taskId",
+   "taskStatus"
+  ],
+  "offset": 0,
+  "size": 5,
+  "requestedSize": 5,
+  "totalCount": 494
+ }
+}

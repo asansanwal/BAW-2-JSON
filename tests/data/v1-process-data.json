@@ -1,0 +1,31 @@
+{
+ "status": "200",
+ "data": {
+  "description": null,
+  "richDescription": null,
+  "caseFolderServerName": null,
+  "processAppName": null,
+  "processAppAcronym": null,
+  "processAppID": null,
+  "result": null,
+  "snapshotName": null,
+  "snapshotID": null,
+  "snapshotTip": false,
+  "startingDocumentServerName": null,
+  "parentCaseId": null,
+  "parentActivityId": null,
+  "workflowApplication": null,
+  "comments": null,
+  "tasks": null,
+  "documents": null,
+  "actionDetails": null,
+  "data": "\"{\\\"payload\\\":\\\"started with BAWJSON.toJSON output\\\",\\\"label\\\":\\\"baw-json validation\\\"}\"",
+  "variables": {
+   "payload": "started with BAWJSON.toJSON output",
+   "label": "baw-json validation"
+  },
+  "relationship": null,
+  "businessData": [],
+  "actions": null
+ }
+}

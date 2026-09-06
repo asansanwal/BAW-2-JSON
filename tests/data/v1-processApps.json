@@ -1,0 +1,548 @@
+{
+ "status": "200",
+ "data": {
+  "processAppsList": [
+   {
+    "shortName": "TWP",
+    "name": "Heritage Process Portal (deprecated)",
+    "description": "",
+    "richDescription": "",
+    "lastModifiedBy": "deadmin",
+    "defaultVersion": "Main",
+    "defaultBranchID": "2063.34a0ce6e-631b-465d-b0dc-414c39fb893f",
+    "installedSnapshots": [
+     {
+      "name": "8.6.0.0",
+      "acronym": "8.6.0.0",
+      "active": false,
+      "createdOn": "2026-06-06T22:48:50Z",
+      "snapshotTip": true,
+      "branchID": "2063.34a0ce6e-631b-465d-b0dc-414c39fb893f",
+      "branchName": "Main",
+      "ID": "2064.0d36fbf6-e92d-4ab1-895e-f755129cc633"
+     }
+    ],
+    "ID": "2066.23d3ecec-6fdb-4033-9c57-e931aa13761f",
+    "lastModified_on": "2026-06-06T22:48:45Z"
+   },
+   {
+    "shortName": "SYSRP",
+    "name": "Process Portal",
+    "description": "Process Portal",
+    "richDescription": "Process Portal",
+    "lastModifiedBy": "deadmin",
+    "defaultVersion": "Main",
+    "defaultBranchID": "2063.a6e3cd56-aa97-3b3d-8426-d75835a374c5",
+    "installedSnapshots": [
+     {
+      "name": "8.6.0.0",
+      "acronym": "8.6.0.0",
+      "active": false,
+      "createdOn": "2020-06-13T04:00:00Z",
+      "snapshotTip": false,
+      "branchID": "2063.a6e3cd56-aa97-3b3d-8426-d75835a374c5",
+      "branchName": "Main",
+      "ID": "2064.e75bb546-31ff-30f2-aae1-519047e3e83a"
+     }
+    ],
+    "ID": "2066.e0eb3ba9-e2ef-32b7-a1b2-d3533a359a62",
+    "lastModified_on": "2026-06-06T22:48:47Z"
+   },
+   {
+    "shortName": "SYSPERFDB",
+    "name": "Performance",
+    "description": "",
+    "richDescription": "",
+    "lastModifiedBy": "deadmin",
+    "defaultVersion": "Main",
+    "defaultBranchID": "2063.534b94e1-fe84-4ea4-8362-983fc9e3e057",
+    "installedSnapshots": [
+     {
+      "name": "18.0.0.1",
+      "acronym": "18.0.0.",
+      "active": false,
+      "createdOn": "2020-05-13T16:39:13Z",
+      "snapshotTip": true,
+      "branchID": "2063.534b94e1-fe84-4ea4-8362-983fc9e3e057",
+      "branchName": "Main",
+      "ID": "2064.094d85e2-0a68-4b11-b4de-4306887b9dce"
+     }
+    ],
+    "ID": "2066.9645fce4-f4af-450f-8ce3-09d45bdb7920",
+    "lastModified_on": "2026-06-06T22:48:48Z"
+   },
+   {
+    "shortName": "DVBM",
+    "name": "Dosvak Benchmark",
+    "description": "",
+    "richDescription": "",
+    "lastModifiedBy": "celladmin",
+    "defaultVersion": "Main",
+    "defaultBranchID": "2063.4dfcdc97-23f3-4085-9074-02b76c492696",
+    "installedSnapshots": [
+     {
+      "name": "1.08",
+      "acronym": "1.08",
+      "active": false,
+      "createdOn": "2020-02-29T23:34:19Z",
+      "snapshotTip": false,
+      "branchID": "2063.4dfcdc97-23f3-4085-9074-02b76c492696",
+      "branchName": "Main",
+      "ID": "2064.fc767d02-0851-4ed9-a0a4-331ac0b6d505"
+     }
+    ],
+    "ID": "2066.b303afb6-7506-44ee-9926-06621af33efd",
+    "lastModified_on": "2026-06-06T23:32:46Z"
+   },
+   {
+    "shortName": "DVKBM",
+    "name": "Dosvak BPM Monitoring ",
+    "description": "Dosvak BPM Monitoring - Author A. Singh",
+    "richDescription": "<HTML><HEAD></HEAD><BODY><div>Dosvak BPM Monitoring - Author A. Singh</div><div><br></div></BODY></HTML>",
+    "lastModifiedBy": "celladmin",
+    "defaultVersion": "Latest",
+    "defaultBranchID": "2063.9eecfb2f-2bbb-4d05-9e43-0718187815d6",
+    "installedSnapshots": [
+     {
+      "name": "1.002",
+      "acronym": "1.002",
+      "active": false,
+      "createdOn": "2020-03-29T01:04:56Z",
+      "snapshotTip": false,
+      "branchID": "2063.9eecfb2f-2bbb-4d05-9e43-0718187815d6",
+      "branchName": "Latest",
+      "ID": "2064.9d06d8e6-377a-4e79-915d-18708f247e13"
+     }
+    ],
+    "ID": "2066.5abd545c-813d-4da6-bf3b-dd1957ac9ddf",
+    "lastModified_on": "2026-06-06T23:33:22Z"
+   },
+   {
+    "shortName": "DVKCA",
+    "name": "Dosvak Code Analyzer",
+    "description": "Dynamic and Static Code Analysis of IBM BPM Applications 150+ Rules, ability to add custom rules and administer built in rules",
+    "richDescription": "<HTML><HEAD></HEAD><BODY>Dynamic and Static Code Analysis of IBM BPM Applications 150+ Rules, ability to add custom rules and administer built in rules<br></BODY></HTML>",
+    "lastModifiedBy": "celladmin",
+    "defaultVersion": "Main",
+    "defaultBranchID": "2063.9c194f20-88d9-4c19-a70c-d713a294a70c",
+    "installedSnapshots": [
+     {
+      "name": "0.066",
+      "acronym": "0.066",
+      "active": false,
+      "createdOn": "2020-03-29T01:02:19Z",
+      "snapshotTip": false,
+      "branchID": "2063.9c194f20-88d9-4c19-a70c-d713a294a70c",
+      "branchName": "Main",
+      "ID": "2064.49eaa5b4-d3e5-43ac-931a-7b47f0672ad1"
+     }
+    ],
+    "ID": "2066.c12f70dd-444e-4596-9508-dbeaad3f518b",
+    "lastModified_on": "2026-06-06T23:33:41Z"
+   },
+   {
+    "shortName": "DPPT",
+    "name": "Dosvak Process & Performance Tools",
+    "description": "Dosvak BPM/BAW Process & Performance Tools - Author A. Singh",
+    "richDescription": "<HTML><HEAD></HEAD><BODY><div>Dosvak BPM/BAW Process &amp; Performance Tools - Author A. Singh</div><div><br></div></BODY></HTML>",
+    "lastModifiedBy": "celladmin",
+    "defaultVersion": "Latest",
+    "defaultBranchID": "2063.103835e9-fa13-4822-ba5f-30b9492fdbc7",
+    "installedSnapshots": [
+     {
+      "name": "2.105",
+      "acronym": "2.105",
+      "active": false,
+      "createdOn": "2020-03-29T01:00:35Z",
+      "snapshotTip": false,
+      "branchID": "2063.103835e9-fa13-4822-ba5f-30b9492fdbc7",
+      "branchName": "Latest",
+      "ID": "2064.719b3ddb-3c4b-489d-b64b-35aaa272512b"
+     }
+    ],
+    "ID": "2066.2f082fa9-fb62-4202-a61f-85875a5e2b5a",
+    "lastModified_on": "2026-06-06T23:33:58Z"
+   },
+   {
+    "shortName": "DVKTS",
+    "name": "Dosvak TWX Search",
+    "description": "Simple TWX Search",
+    "richDescription": "<HTML><HEAD></HEAD><BODY>Simple TWX Search<br></BODY></HTML>",
+    "lastModifiedBy": "celladmin",
+    "defaultVersion": "Main",
+    "defaultBranchID": "2063.4e2b7c6e-1a23-4042-8c57-3a84c8f55e7c",
+    "installedSnapshots": [
+     {
+      "name": "2.0",
+      "acronym": "2.0",
+      "active": false,
+      "createdOn": "2020-02-29T23:35:05Z",
+      "snapshotTip": false,
+      "branchID": "2063.4e2b7c6e-1a23-4042-8c57-3a84c8f55e7c",
+      "branchName": "Main",
+      "ID": "2064.1e2dc220-f718-446c-a755-a0bf9a49831a"
+     }
+    ],
+    "ID": "2066.4fdff28c-8721-47fb-9890-0e0a6943d684",
+    "lastModified_on": "2026-06-06T23:34:12Z"
+   },
+   {
+    "shortName": "DUITS",
+    "name": "Dosvak UI Toolkit Showcase",
+    "description": "",
+    "richDescription": "",
+    "lastModifiedBy": "celladmin",
+    "defaultVersion": "Main",
+    "defaultBranchID": "2063.ea03c067-0ef0-4e60-8279-cac01cae8193",
+    "installedSnapshots": [
+     {
+      "name": "1.33",
+      "acronym": "1.33",
+      "active": false,
+      "createdOn": "2020-03-01T00:02:13Z",
+      "snapshotTip": false,
+      "branchID": "2063.ea03c067-0ef0-4e60-8279-cac01cae8193",
+      "branchName": "Main",
+      "ID": "2064.4496de2e-e9ca-4db7-a0a6-dcea64c06772"
+     }
+    ],
+    "ID": "2066.f9261c1f-848a-435a-8b45-c9b119cab3ce",
+    "lastModified_on": "2026-06-06T23:34:32Z"
+   },
+   {
+    "shortName": "DVKTSE",
+    "name": "Dosvak UI Toolkit Showcase (Enterprise)",
+    "description": "",
+    "richDescription": "",
+    "lastModifiedBy": "celladmin",
+    "defaultVersion": "Main",
+    "defaultBranchID": "2063.8bba472b-7194-4a05-8c14-71c5020c5d37",
+    "installedSnapshots": [
+     {
+      "name": "1.02",
+      "acronym": "1.02",
+      "active": false,
+      "createdOn": "2020-03-29T00:35:50Z",
+      "snapshotTip": false,
+      "branchID": "2063.8bba472b-7194-4a05-8c14-71c5020c5d37",
+      "branchName": "Main",
+      "ID": "2064.4d88dc3c-9209-40fd-9706-94aba3ee1db0"
+     }
+    ],
+    "ID": "2066.b0d834ec-d211-4d85-9d4c-5c220c7c8d8e",
+    "lastModified_on": "2026-06-06T23:34:49Z"
+   },
+   {
+    "shortName": "OPS",
+    "name": "Operations",
+    "description": "Operations - process and performance operations tools for BAW / CP4BA (client-side human services, UI Toolkit only)",
+    "richDescription": "Operations - process and performance operations tools for BAW / CP4BA (client-side human services, UI Toolkit only)",
+    "lastModifiedBy": "celladmin",
+    "defaultVersion": "Main",
+    "defaultBranchID": "2063.4f3947df-00db-52ff-8857-2f4788a8b46a",
+    "installedSnapshots": [
+     {
+      "name": "1.0",
+      "acronym": "1.0",
+      "active": false,
+      "createdOn": "2026-09-04T02:23:36Z",
+      "snapshotTip": false,
+      "branchID": "2063.4f3947df-00db-52ff-8857-2f4788a8b46a",
+      "branchName": "Main",
+      "ID": "2064.c508d655-8e7f-5e31-a122-fd1f40c142fa"
+     },
+     {
+      "name": "1.1",
+      "acronym": "1.1",
+      "active": false,
+      "createdOn": "2026-09-04T02:37:25Z",
+      "snapshotTip": false,
+      "branchID": "2063.4f3947df-00db-52ff-8857-2f4788a8b46a",
+      "branchName": "Main",
+      "ID": "2064.f6f3e245-cbc4-554c-bf19-552cdeb555a2"
+     }
+    ],
+    "ID": "2066.9c721269-d0d7-5f59-a65d-404b728d8344",
+    "lastModified_on": "2026-09-04T02:43:30Z"
+   },
+   {
+    "shortName": "OPSREST",
+    "name": "Operations REST",
+    "description": "Operations REST - process operations tools using only the BPM REST API and JS API (no database access)",
+    "richDescription": "Operations REST - process operations tools using only the BPM REST API and JS API (no database access)",
+    "lastModifiedBy": "celladmin",
+    "defaultVersion": "Main",
+    "defaultBranchID": "2063.ff6c40f4-0ebf-5517-bbc2-6494083b3f86",
+    "installedSnapshots": [
+     {
+      "name": "1.1",
+      "acronym": "1.1",
+      "active": false,
+      "createdOn": "2026-09-04T14:02:27Z",
+      "snapshotTip": false,
+      "branchID": "2063.ff6c40f4-0ebf-5517-bbc2-6494083b3f86",
+      "branchName": "Main",
+      "ID": "2064.d2ad020e-8384-5e08-a8b1-4b60cc340086"
+     }
+    ],
+    "ID": "2066.32575921-2a91-5588-b170-ca58c6efe2e3",
+    "lastModified_on": "2026-09-04T14:15:53Z"
+   },
+   {
+    "shortName": "GUITS",
+    "name": "Generic UI Toolkit Showcase",
+    "description": "Showcase of every Generic UI Toolkit control",
+    "richDescription": "Showcase of every Generic UI Toolkit control",
+    "lastModifiedBy": "celladmin",
+    "defaultVersion": "Main",
+    "defaultBranchID": "2063.3657bfee-4897-5fd8-a472-28d34e63881d",
+    "installedSnapshots": [
+     {
+      "name": "1.0",
+      "acronym": "1.0",
+      "active": false,
+      "createdOn": "2026-09-04T16:40:11Z",
+      "snapshotTip": false,
+      "branchID": "2063.3657bfee-4897-5fd8-a472-28d34e63881d",
+      "branchName": "Main",
+      "ID": "2064.13374331-5b37-5f76-a871-40291e7e6260"
+     },
+     {
+      "name": "1.1",
+      "acronym": "1.1",
+      "active": false,
+      "createdOn": "2026-09-04T16:55:33Z",
+      "snapshotTip": false,
+      "branchID": "2063.3657bfee-4897-5fd8-a472-28d34e63881d",
+      "branchName": "Main",
+      "ID": "2064.156a55eb-82b8-5689-919b-4ea04a5a4abe"
+     },
+     {
+      "name": "test-a",
+      "acronym": "test-a",
+      "active": false,
+      "createdOn": "2026-09-04T17:08:00Z",
+      "snapshotTip": false,
+      "branchID": "2063.3657bfee-4897-5fd8-a472-28d34e63881d",
+      "branchName": "Main",
+      "ID": "2064.069da9dd-36d2-5e83-94c5-7da005df57e8"
+     },
+     {
+      "name": "test-b",
+      "acronym": "test-b",
+      "active": false,
+      "createdOn": "2026-09-04T17:08:34Z",
+      "snapshotTip": false,
+      "branchID": "2063.3657bfee-4897-5fd8-a472-28d34e63881d",
+      "branchName": "Main",
+      "ID": "2064.676c0ba3-64de-58c0-b90f-9e72f2f743c1"
+     },
+     {
+      "name": "test-c",
+      "acronym": "test-c",
+      "active": false,
+      "createdOn": "2026-09-04T17:13:44Z",
+      "snapshotTip": false,
+      "branchID": "2063.3657bfee-4897-5fd8-a472-28d34e63881d",
+      "branchName": "Main",
+      "ID": "2064.ad37b7bc-142d-57c3-98fe-bc51992b7344"
+     },
+     {
+      "name": "test-d",
+      "acronym": "test-d",
+      "active": false,
+      "createdOn": "2026-09-04T17:13:56Z",
+      "snapshotTip": false,
+      "branchID": "2063.3657bfee-4897-5fd8-a472-28d34e63881d",
+      "branchName": "Main",
+      "ID": "2064.cc2c47b4-a9ac-55dc-a4c5-b1a80870924b"
+     },
+     {
+      "name": "test-f",
+      "acronym": "test-f",
+      "active": false,
+      "createdOn": "2026-09-04T17:20:04Z",
+      "snapshotTip": false,
+      "branchID": "2063.3657bfee-4897-5fd8-a472-28d34e63881d",
+      "branchName": "Main",
+      "ID": "2064.2e9f2f83-f680-5e97-8580-d1dd1cbd8f8b"
+     },
+     {
+      "name": "1.2",
+      "acronym": "1.2",
+      "active": false,
+      "createdOn": "2026-09-04T17:29:51Z",
+      "snapshotTip": false,
+      "branchID": "2063.3657bfee-4897-5fd8-a472-28d34e63881d",
+      "branchName": "Main",
+      "ID": "2064.5985ac76-a410-59bf-8c5d-1d71329be813"
+     },
+     {
+      "name": "1.3",
+      "acronym": "1.3",
+      "active": false,
+      "createdOn": "2026-09-04T17:32:17Z",
+      "snapshotTip": false,
+      "branchID": "2063.3657bfee-4897-5fd8-a472-28d34e63881d",
+      "branchName": "Main",
+      "ID": "2064.f270403c-e894-56d3-a4c9-2773aace5753"
+     },
+     {
+      "name": "1.4",
+      "acronym": "1.4",
+      "active": false,
+      "createdOn": "2026-09-04T18:09:28Z",
+      "snapshotTip": false,
+      "branchID": "2063.3657bfee-4897-5fd8-a472-28d34e63881d",
+      "branchName": "Main",
+      "ID": "2064.3fdea2ef-05d5-5738-8f6e-affc48f90b1d"
+     },
+     {
+      "name": "1.5",
+      "acronym": "1.5",
+      "active": false,
+      "createdOn": "2026-09-04T18:32:41Z",
+      "snapshotTip": false,
+      "branchID": "2063.3657bfee-4897-5fd8-a472-28d34e63881d",
+      "branchName": "Main",
+      "ID": "2064.23335445-8902-5007-951d-8fa5a60212d1"
+     },
+     {
+      "name": "1.6",
+      "acronym": "1.6",
+      "active": false,
+      "createdOn": "2026-09-04T18:58:02Z",
+      "snapshotTip": false,
+      "branchID": "2063.3657bfee-4897-5fd8-a472-28d34e63881d",
+      "branchName": "Main",
+      "ID": "2064.f620c21e-fe7d-5676-9d0a-37bb248c67a5"
+     },
+     {
+      "name": "1.7",
+      "acronym": "1.7",
+      "active": false,
+      "createdOn": "2026-09-04T19:13:30Z",
+      "snapshotTip": false,
+      "branchID": "2063.3657bfee-4897-5fd8-a472-28d34e63881d",
+      "branchName": "Main",
+      "ID": "2064.e0858768-46f2-52a7-a01d-4d97d2d39b07"
+     },
+     {
+      "name": "1.8",
+      "acronym": "1.8",
+      "active": false,
+      "createdOn": "2026-09-04T19:40:27Z",
+      "snapshotTip": false,
+      "branchID": "2063.3657bfee-4897-5fd8-a472-28d34e63881d",
+      "branchName": "Main",
+      "ID": "2064.3a7f2e50-5bd0-5c10-aa81-b0a4e4390eed"
+     },
+     {
+      "name": "1.9",
+      "acronym": "1.9",
+      "active": false,
+      "createdOn": "2026-09-04T19:58:35Z",
+      "snapshotTip": false,
+      "branchID": "2063.3657bfee-4897-5fd8-a472-28d34e63881d",
+      "branchName": "Main",
+      "ID": "2064.7ee509cd-641f-5e90-a26f-74e2b2430f85"
+     }
+    ],
+    "ID": "2066.0a6aca8b-2ba0-5500-a885-6230714255f3",
+    "lastModified_on": "2026-09-04T20:03:30Z"
+   },
+   {
+    "shortName": "TWXCA",
+    "name": "TWX Code Analyzer",
+    "description": "TWX Code Analyzer - static analysis of TWX exports (ranked findings, diagrams, search, history, snapshot comparison) with the engine embedded as a Java integration",
+    "richDescription": "TWX Code Analyzer - static analysis of TWX exports (ranked findings, diagrams, search, history, snapshot comparison) with the engine embedded as a Java integration",
+    "lastModifiedBy": "celladmin",
+    "defaultVersion": "Main",
+    "defaultBranchID": "2063.302e8f24-5f1f-5fa3-ad80-d801cbe3ced1",
+    "installedSnapshots": [
+     {
+      "name": "1.0",
+      "acronym": "1.0",
+      "active": false,
+      "createdOn": "2026-09-05T00:27:29Z",
+      "snapshotTip": false,
+      "branchID": "2063.302e8f24-5f1f-5fa3-ad80-d801cbe3ced1",
+      "branchName": "Main",
+      "ID": "2064.5fa83fe5-fe38-5702-ad13-9c80ee2929f2"
+     }
+    ],
+    "ID": "2066.355a2b6b-6931-5fb4-a20f-70d216c292b1",
+    "lastModified_on": "2026-09-05T00:28:36Z"
+   },
+   {
+    "shortName": "OPSCP4",
+    "name": "Operations CP4BA",
+    "description": "Operations CP4BA - process operations tools for Cloud Pak for Business Automation: classic Process REST, Process REST v2, Operations REST and federated REST, every API family with its own host and context path",
+    "richDescription": "Operations CP4BA - process operations tools for Cloud Pak for Business Automation: classic Process REST, Process REST v2, Operations REST and federated REST, every API family with its own host and context path",
+    "lastModifiedBy": "celladmin",
+    "defaultVersion": "Main",
+    "defaultBranchID": "2063.aec96c0d-ff8d-51dd-8cbd-5550799dece8",
+    "installedSnapshots": [
+     {
+      "name": "1.2",
+      "acronym": "1.2",
+      "active": false,
+      "createdOn": "2026-09-06T03:01:49Z",
+      "snapshotTip": false,
+      "branchID": "2063.aec96c0d-ff8d-51dd-8cbd-5550799dece8",
+      "branchName": "Main",
+      "ID": "2064.3d5339bc-afed-5bd3-9169-bc6c8b87567e"
+     }
+    ],
+    "ID": "2066.b2516e78-29fa-5333-a285-92a7d6bc55c9",
+    "lastModified_on": "2026-09-06T03:02:56Z"
+   },
+   {
+    "shortName": "TDGEN",
+    "name": "Test Data Generator",
+    "description": "Test Data Generator - sandbox processes and a dashboard that creates instances and tasks in every state for verifying the operations tools",
+    "richDescription": "Test Data Generator - sandbox processes and a dashboard that creates instances and tasks in every state for verifying the operations tools",
+    "lastModifiedBy": "celladmin",
+    "defaultVersion": "Main",
+    "defaultBranchID": "2063.089e9a36-f35b-5c14-bb37-f878670b525e",
+    "installedSnapshots": [
+     {
+      "name": "1.0",
+      "acronym": "1.0",
+      "active": false,
+      "createdOn": "2026-09-05T10:17:19Z",
+      "snapshotTip": false,
+      "branchID": "2063.089e9a36-f35b-5c14-bb37-f878670b525e",
+      "branchName": "Main",
+      "ID": "2064.559a5568-d00d-5ae8-858e-c02fcfa9cd8f"
+     }
+    ],
+    "ID": "2066.3a4b4ad2-9a9c-5a04-bfda-903398861003",
+    "lastModified_on": "2026-09-05T10:28:01Z"
+   },
+   {
+    "shortName": "BAWJSON",
+    "name": "BAW JSON Test",
+    "description": "BAW JSON Test - business objects of every type, the baw-json.js server file and the Run Script service used to verify the BAW <-> JSON converter",
+    "richDescription": "BAW JSON Test - business objects of every type, the baw-json.js server file and the Run Script service used to verify the BAW <-> JSON converter",
+    "lastModifiedBy": "celladmin",
+    "defaultVersion": "Main",
+    "defaultBranchID": "2063.15ec8886-f268-5b72-a4b4-aad3eb2b6dd2",
+    "installedSnapshots": [
+     {
+      "name": "1.0",
+      "acronym": "1.0",
+      "active": false,
+      "createdOn": "2026-09-06T14:24:15Z",
+      "snapshotTip": false,
+      "branchID": "2063.15ec8886-f268-5b72-a4b4-aad3eb2b6dd2",
+      "branchName": "Main",
+      "ID": "2064.c68b56ae-034a-53b5-b30d-50b67b8f15bb"
+     }
+    ],
+    "ID": "2066.85e30b32-1ee1-5c4a-9d44-9447ea5725f2",
+    "lastModified_on": "2026-09-06T14:25:32Z"
+   }
+  ]
+ }
+}
